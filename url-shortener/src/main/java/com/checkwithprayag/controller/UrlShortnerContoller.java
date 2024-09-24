@@ -14,6 +14,8 @@ public class UrlShortnerContoller {
     @GetMapping("short-url")
     public ResponseEntity<String> getShortURL(@RequestParam String longURL){
 
+        //TODO hashing algorithm
+
         return ResponseEntity.ok("short url");
     }
 
